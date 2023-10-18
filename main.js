@@ -17,6 +17,12 @@ const getEmail = function(obj) {
     return obj.firstName[0].toLowerCase() + obj.lastName.toLowerCase() + '.prsvr@gmail.com'
 }
 
+const getHardestHomework = function(arr) {
+    if(arr.length === 0){
+        return '';
+    }
+    
+}
 
 // ┌─────────────────────────────────────┐
 // │ Do not modify code below this line. │
